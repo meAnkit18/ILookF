@@ -1,0 +1,9 @@
+/* For Chrome-based browsers (Electron uses Chromium) */
+@import "tailwindcss";
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow: auto; /* You can still scroll with mouse/keyboard */
+}
